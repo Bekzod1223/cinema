@@ -1,0 +1,59 @@
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+  .films__catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    grid-template-rows: minmax(370px, auto);
+  }
+
+  .films__catalog-card {
+    min-height: 370px;
+  }
+
+  .collections__catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 981px) {
+}
+@media (max-width: 768px) {
+  .series__collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+ }
+ .footer .container {
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 50px;
+ }
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 480px) {
+  .video__link {
+    margin-top: -5px;
+  }
+
+  .header__nav .container {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .header__nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__nav-padding {
+    margin-bottom: -50px;
+  }
+  
+  .header__banner-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 320px) {
+}
